@@ -3,7 +3,7 @@ AWSTemplateFormatVersion: "2010-09-09"
 
 # Descrição que será utilizada na stack
 Description:
-  Provisiona maquina EC2 com jenkins
+  Provisiona maquina EC2 com jenkins, para usar CI/CD
 
 # parâmetro para chave de acesso ao EC2
 Parameters:
