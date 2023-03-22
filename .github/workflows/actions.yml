@@ -12,6 +12,11 @@ jobs:
       - name: Fazer checkout da branch
         uses: actions/checkout@v2
 
+      - name: Configurar AWS
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-region: us-east-1
+
       - name: Deploy no CloudFormation
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with: 
